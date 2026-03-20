@@ -24,3 +24,11 @@ RootRotAI 2.1 is an online portal intended for users who wish to diagnose large 
 ### RootRotAI 2.2 (Mobile Application)
 The RootRot-AI 2.2 is suitable for quick DRR analysisThe app runs locally in the user’s device and does not require internet.The mobile application has an additional “Camera” option allows the user to capture images in the app using the camera of the user’s local device
 
+## Performance Metrics of RootRot-AI
+
+| Model | Accuracy for Classification | RMSE for Severity Score |
+| :--- | :---: | :---: |
+| **Camera** | 94% | 0.87 |
+| **Root Scanner** | 85% | 1.49 |
+| **Microscope** | 93% | 1.21 |
+
