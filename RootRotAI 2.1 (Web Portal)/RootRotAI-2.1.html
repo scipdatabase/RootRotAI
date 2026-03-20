@@ -1,0 +1,456 @@
+<?php include 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Web Portal, Dry Root Rot, Disease Severity, Genotypes">
+    <meta name="author" content="Durga Devi, Shikha Rani, Shankar Acharya, Senthil Kumar Muthappa">
+    <title>Image-based Tools</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OabXHS8gl7H6EwEOLiRHQQE4IUCYSRWS4Jq8Z3hT_vWCHtNqnqVRnTCX22f3G4rUMmba0pH8b3fP4d29RbroXhipTclP8gMdv2JbXdL-aU7PZsOj_RUmThfz7mEyIIsJcvNkNS4Sy8TIonpxkvqVrYhdslYWSYYJCy7P5i1BrmxNtqe4Lmn-gf6s_a1CsCznY9x9bHWE8Yn4CU1n4nNGAKmntdp-jnAzmumudtBsmsl93ZxRSiua8aN00vQDOmHvV3wzs_yB7qCjmvOlAv4CiETU0f6GQFXXO3JezUfW0dxr-BCopHjv43jbiajsNpDg89n7jCeD_08Whv1kv8kOEguvgXKtc_rFRuGwzEBBbOp7CmxGIt-7aEvNCZAJHtFDxAO4OJJTj6xZPFpEnlOv-Ry9ta-l-lP6zWXexffWVgKzlbGsY_BrvcvJDGpAe4_HWLwtP6U576IHlKmdO_WLIhMY-VZGOZwp91g9ocR2sOflK4xofyOF-zN7Bj1YKTh6L9ZZzENSEfj8PpFsOlJCLEymlhk60sZguxb8p42ICAUPqpRfz-7j5QrLv_2BSHkHwpQL1AeoNmdhsUd_m_ZpDPZK6r9YGjVg2Kjc3TwnMAaEgtdRaLpfIxjsACLV7NKvUF3J2Ty8lco5rHy-swjb3lQ1GJ5g3f41AymlGbfoNCqeX_CA3JqRWjtkpPAhu0eW-kVTOp_0nCZoQY43Ic9YPfoYVJ5AVuYx5rYmD0jlPNPjHr7jCaRc_lOQbtK5FQyG3Q7O5BzAgamdxe0aqDjgrcDVl7oAw_4yAhwhIeTN8cEGbantMrTzP8r-oARsKMlA-Lll1qCCax4GT8XyS08V1_P3vs--TyYiijwHT7OAznCoUOidm1cVE81AaRE3chshpNZxXhmsrDuxJyrNL7LMolQbdUtDUwdWsLREUh69I2U_zgD1DQUPKHqQexP6WrcFSR3NU7YPD0lY0E8l-0HFx4Fr9UgTkSBCJ7j7GQG3NBuQhIiRRdArBE1uFVoqfFnmFaSxMhNeDrx5S6xE663uMy__uUgP8kg2PvHpm2J69rq6w5c9YIGIQ4_3Uu6Oy5HQG4b9WDh8oPz09EUSDE48qerNjFm7mwEFu9iH-IMFxk2f4PzIR7NCyw3aVNXD7OJEG41ISwNWWXkCrY0kUy4hEiQ_5BIk-BVDIeeWARDlxIpF--aJJO6VjTI7qSkD1uQ9nc_GUvh2Q7XNX0Wv9dM6aIUQfWKZMsvGf7AmyjTv07NT9t2PKSyiG1XhVZ780pewUuVS8Amq5RbVTFJIKm-NCt2HON23-WkyvwUcsY7aNTThcHpF4E1Ba30uH0Fttm_mXwQfsG6sEFahLiewYUSeFu4LzNxO92EftasHFm6k8jONdYE_tGqnEfLOreHavhYtZhksMfXmc4FqoXDMwJVnR8iaf2M8GCDYN6UaWBJnScFMYmvVHy0r78ghJ_cnrQSW2EyrL_fJ-5gEhgnGrOUE7U7eEtNkud5qCg9umh1S1HKbZ3rUnJ7_6DmPb3iDtlZGFCgbLtkaaO3gYyNNyQboSiLovsv1TI_lClFYVs5tZu40FkxWt9ORGXZXaOwI7xP9c6JCJBc9Cb6afw9pi9WcbwYCytAFiS1Q1xLBABfwT5IQch2chlEI5AcyL6idb89qj1WR7SAhjGWJc4BbD3h-ducB5hxZkR2M6mGbENCHRByCCz2uE9nRR-b0fiPUq40sUZkVhBREV3FaF8hf7v05og"
+        nonce="9b53d6cffafd52e0670b1c189974ff46" charset="UTF-8"></script>
+    <link rel="stylesheet" crossorigin="anonymous"
+        href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYWlsLWF0dGFjaG1lbnQuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2F0dGFjaG1lbnQvdS8wLz91aT0yJmlrPThjMDJiOWE0ZjcmYXR0aWQ9MC4yJnBlcm1tc2dpZD1tc2ctZjoxODU0NjcyMTczOTU4NzgxNzgzJnRoPTE5YmQxZTg0MDc5ZDViNTcmdmlldz1hdHQmZGlzcD1zYWZlJnJlYWxhdHRpZD1mX21ra3F5czd1MSZ6dyZzYWRkYmF0PUFOR2pkSl9PMHB4MTR5ektLRHdTY010clNpVmM3NWxzMlRoNS1sbk9wa1BnTktZSGh3TmVDTVZMamRzclZYdWJuWDJma1ZFaGJyRjhyYlFFcGRteDV3UkZUdmFZOEQ2ZmpYcVJyMF8yRGtJMlRnR3lwdU5iQXdZWVdLdlI3X1FYclVEMUhZeXAycGJUY1hXaDNrbkMwbkFGOHZmLVZxUHJWRnUtdnVOblpQWlFSWXNvdjRXZjZGQzZVVk95U09CZWtuN2ppSUFWbEk3QTdfeHBMTnNqYXNvSXF0TWNHLXhWRVZ1MmxtQU9EazhSaTFLNkd1d29NT1ZSUHN3MUh1endpTV8wbFBxUDRNWm1rT2xwZzlQZ0lvQ3g3Z0hlQi1aemZ0ZkRTU2xmMzVPTU9ZZk9zemZhd0F5RUpIZ2ZrMm5kdmpnVXJHWXRTYk84YUJBQzFvd3JnSTJHbGhUZm5EbDJVQkpQWk5FNVdoZXZqN042LXlSaHk2d0N5MUVsSlVQUTdyUV9BYU9jOEhlT1lndFphZl9abmpiTUp1Wk9tTjdFT0QtTGhuV3BIYUF3NjFjemtnaDFoeVBLVzZkSlAxOVd0WXNjY2VTeElOWDBFTDlscWRtbDZDN256dFRIRW1SNWRDX0plM1dTTnl6WDVxVjE1Zzg4ODk4YXV4TmNWUnpTRExzWGo5Wkl5c3QtRmR0RHhKZFFYdDJsUUJrbF9HWTVnOXJZNE9KWnR2S1gtb1RWUWdOdmNvUmNRa244WmdOOWNIb3JkR2VhMTBaZWFNUWQ5QXZEUmIxZ3NPeEFBNlVFekE4MHRRdUxqR2pDR3ZZbDhneVB6QjlaLVBjM0QwdEswaWoyd003V0JTMDREMkFxbU9kVjJ2VzNudnNxTGhXdGg2YzR3R25vLU9ybW9LUUl5TGpyUVJwZnI3LWVFWmd2eUhlWTdvT3JzT2tHSHV0MGwtbnRsdUQ0bUJQZk9CZjVEWGtfanBjbVpGSlNVX3cwTkFrV3R0RjAxa0dVdzNGR1pHQmI1N09WWERHbzlja0x4bHBaWkh3QV9xV3RaN0tLR1ZFbGlDQkxyYUZKTlJzOEI4LUswU2NWVTFMQ19NNTh5UWJxaDUwNFVSWDcwTlpjU1hjX0RQZ0NqM3ZOVTdNWTBQYS1DYjIxbnl2RUpYaFZXQ3dJSlUwZHFuQ3ptYUNTY3hMczNqa21sN0dHYmcwOEt3TldZN2RmS1FqNVJ1TjQ4WU5SQ29UM1Ffb3ktaFZJTnhOYXlqMUdiMS12U0FlR180RGxzMmU3LUpIWDB5cEdveVFwdjhpaXNOZlp5Y1hEbnZxVHllREpqTmhYMmVMMnRUSzJoYVJnS2RrTGgwbFk2aTlfVXBOUmdpeTNseDFGVWZhVTNEZkI3Y003cThpYjFGSlh4MzhhYkN3bXhmcEpEV3BfbUpielVaWURHWmM" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        :root {
+            --primary-blue: #0d6efd;
+            --success-green: #198754;
+            --glass-bg: rgba(255, 255, 255, 0.95);
+        }
+
+        .ack-section {
+            padding: 4rem 0;
+            background: transparent;
+        }
+
+        .ack-header h2 {
+            font-weight: 400;
+            font-size: 2.5rem;
+            text-align: center;
+            position: relative;
+            margin-bottom: 3rem;
+        }
+
+        .ack-header h2::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 10px;
+        }
+
+        .description-box {
+            max-width: 650px;
+            margin: 30px auto;
+            padding: 28px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #f8fbff, #eef5ff);
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+            transition: 0.35s ease;
+        }
+
+        .description-box:hover {
+            transform: translateY(-6px) scale(1.01);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .description-box h3 {
+            font-size: 26px;
+            margin-bottom: 12px;
+        }
+
+        .description-box p {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .download-link {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 12px 22px;
+            border-radius: 30px;
+            background: #2b6cff;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .download-link:hover {
+            background: #1747d1;
+            transform: scale(1.05);
+        }
+
+        /* collapsible section */
+        .more-btn {
+            margin-top: 15px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            color: #2b6cff;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .more-content {
+            display: none;
+            margin-top: 12px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        /* Layout & Cards */
+        .glass-card {
+            border-radius: 16px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(6px);
+            border: none;
+            transition: transform 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-header {
+            border-radius: 15px 15px 0 0 !important;
+        }
+
+        /* Interactive Computer Icon */
+        .computer-trigger {
+            width: 150px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+            animation: floating 3s ease-in-out infinite;
+        }
+
+        .computer-trigger:hover {
+            transform: scale(1.1);
+            filter: drop-shadow(0 15px 25px rgba(0, 123, 255, 0.3));
+        }
+
+        @keyframes floating {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        /* Hidden Section Logic */
+        #next-section {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.8s ease-in;
+        }
+
+        .section-show {
+            display: block !important;
+            opacity: 1 !important;
+        }
+
+        .instruction-text {
+            font-size: 0.85rem;
+            color: var(--primary-blue);
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="ack-section py-5">
+        <div class="container-fluid">
+            <div class="ack-header bg-primary bg-opacity-10 py-4 mb-5 rounded-3 text-center">
+                <h2 class="text-primary display-4 mb-2">
+                    <i class="me-3"></i><strong>RootRotAI <span class="badge bg-primary fs-6 align-middle">v2.1</span></strong>
+                </h2>
+                <p class="lead text-muted mb-0">Online System for Detecting and Assessing Dry Root Rot (DRR) in Chickpea</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid px-4 py-1">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <p class="lead">Click the computer to start the AI Diagnosis Workspace</p>
+                <div class="mt-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3067/3067260.png" alt="Interactive Computer"
+                        class="computer-trigger" onclick="revealSection()">
+                    <p class="instruction-text mt-3 animated pulse infinite text-primary">
+                        <i class="fas fa-hand-pointer me-1"></i> Click to launch RootRotAI-2.1 app
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="description-box text-center">
+
+        <h3>RootRotAI Overview</h3>
+
+        <p>
+            <strong>RootRotAI-2.1</strong> detects <em>Macrophomina phaseolina</em> in chickpea images. The system utilizes two multitask transformer-based TensorFlow Lite models—one optimized for camera and root scanner modalities, and another for microscope images.
+        </p>
+
+        <button class="more-btn" onclick="toggleInfo()">▶ View Model Details</button>
+
+        <div id="moreInfo" class="more-content">
+            • Model 1 → optimized for camera & root scanner images<br>
+            • Model 2 → optimized for microscopic pathogen detection<br>
+            • Supports rapid screening and AI-assisted diagnosis
+        </div>
+
+    </div>
+
+    <script>
+        function toggleInfo() {
+            let x = document.getElementById("moreInfo");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+    <div id="next-section" class="container pb-5">
+        <div class="row g-4">
+            <div class="col-12 col-lg-7">
+                <div class="card shadow-lg border-0 rounded-4 overflow-hidden h-100">
+                    <div class="card-header bg-primary text-white py-3 text-center">
+                        <h4 class="mb-0 fw-bold"><i class="fa-solid fa-microchip me-2"></i>RootRotAI-2.1 Workspace</h4>
+                    </div>
+                    <div class="card-body p-4 bg-white">
+                        <div class="row g-3">
+                            <div class="col-md-12">
+                                <label class="form-label fw-bold text-secondary mb-2"><i class="fa-solid fa-layer-group"></i>Select Modality</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"></span>
+                                    <select id="modeSelect" class="form-select shadow-none">
+                                        <option value="camera">Camera (Red Background)</option>
+                                        <option value="root_scanner">Root Scanner (Blue Background)</option>
+                                        <option value="microscope">Microscope (White Background)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="form-label fw-bold text-secondary mb-2">Upload Images (Batch)</label>
+                                <input type="file" id="imageUpload" class="form-control shadow-none" multiple accept="image/*">
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary w-100 mt-4 fw-bold py-3 shadow-sm hover-up" id="analyzeBtn" onclick="runAnalysis()">
+                            <i class="fa-solid fa-wand-magic-sparkles me-2"></i> RUN AI PREDICTION & GENERATE REPORT
+                        </button>
+
+                        <div id="resultsSection" class="mt-5" style="display:none;">
+                            <div class="d-flex justify-content-between align-items-center mb-3 border-bottom pb-2">
+                                <h5 class="fw-bold mb-0">Analysis Summary</h5>
+                                <a id="downloadLink" href="#" class="btn btn-sm btn-success rounded-pill px-3">
+                                    <i class="fas fa-file-csv me-1"></i> Export CSV
+                                </a>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-hover align-middle">
+                                    <thead class="table-light">
+                                        <tr class="small text-uppercase">
+                                            <th>Image Name</th>
+                                            <th>AI Prediction</th>
+                                            <th>Severity (0-5)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="resultsBody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+                    <div class="card-header bg-warning text-dark text-center py-3">
+                        <h5 class="mb-0 fw-bold"><i class="fa-solid fa-circle-info me-2 text-warning"></i>Technical Requirements</h5>
+                    </div>
+                    <div class="card-body p-4 bg-light bg-opacity-50">
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fa-solid fa-square text-danger mt-1 me-2"></i>
+                                <span><strong>Red:</strong> Camera Images</span>
+                            </li>
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fa-solid fa-square text-primary mt-1 me-2"></i>
+                                <span><strong>Blue:</strong> Root Scanner</span>
+                            </li>
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fa-solid fa-square text-white mt-1 me-2"></i>
+                                <span><strong>White:</strong> Microscope</span>
+                            </li>
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fa-solid fa-circle-check text-success mt-1 me-2"></i>
+                                <span><strong>Image Integrity:</strong> Backgrounds must be clear of external objects; the model is specialized for plant images only.</span>
+                            </li>
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fa-solid fa-circle-check text-success mt-1 me-2"></i>
+                                <span><strong>Probabilistic Nature:</strong> All predictions are subject to a degree of error.</span>
+                            </li>
+                        </ul>
+
+                        <h6 class="fw-bold text-primary mb-3">Model Performance</h6>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-border align-middle mb-0" style="font-size: 0.9rem;">
+                                <thead class="text-muted border-bottom">
+                                    <tr>
+                                        <th>Modality</th>
+                                        <th class="text-center">Accuracy</th>
+                                        <th class="text-center">RMSE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Camera</td>
+                                        <td class="text-center"><span class="badge bg-success bg-opacity-10 text-success">94%</span></td>
+                                        <td class="text-center text-muted">0.87</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Scanner</td>
+                                        <td class="text-center"><span class="badge bg-success bg-opacity-10 text-success">85%</span></td>
+                                        <td class="text-center text-muted">1.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Microscope</td>
+                                        <td class="text-center"><span class="badge bg-success bg-opacity-10 text-success">93%</span></td>
+                                        <td class="text-center text-muted">1.21</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p><small><em>Outputs: 1. DRR Detection | 2. Severity Score (0-5). Score 0 indicates a healthy plant.</em></small></p>
+                        </div>
+
+                        <div class="mt-4">
+                            <a href="https://github.com/scipdatabase/DRR_Disease_Prediction/tree/main/Images"
+                                target="_blank" class="btn btn-outline-primary btn-sm w-100 rounded-pill">
+                                <i class="fa-brands fa-github me-2"></i>Download Sample Images
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loader" class="loader-overlay">
+        <div class="spinner"></div>
+        <div class="loading-text" id="loaderText">Processing...</div>
+    </div>
+    <script>
+        // 1. Reveal the App Section when clicking the computer icon
+        function revealSection() {
+            const nextSection = document.getElementById('next-section');
+            nextSection.style.display = 'block';
+            setTimeout(() => {
+                nextSection.style.opacity = '1';
+                nextSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }, 10);
+        }
+
+        // 2. Toggle the Model Details description
+        function toggleInfo() {
+            let x = document.getElementById("moreInfo");
+            x.style.display = (x.style.display === "block") ? "none" : "block";
+        }
+
+        // 3. Core Analysis Logic
+        async function runAnalysis() {
+            const fileInput = document.getElementById('imageUpload');
+            const mode = document.getElementById('modeSelect').value;
+            const resultsBody = document.getElementById('resultsBody');
+            const resultsSection = document.getElementById('resultsSection');
+            const downloadLink = document.getElementById('downloadLink');
+            const loader = document.getElementById('loader');
+            const loaderText = document.getElementById('loaderText');
+            const btn = document.getElementById('analyzeBtn');
+
+            if (fileInput.files.length === 0) {
+                alert("Please select at least one image file.");
+                return;
+            }
+
+            // --- UI Update: Start Loading ---
+            loader.style.display = "flex";
+            loaderText.innerText = `AI is processing ${fileInput.files.length} images...`;
+            btn.disabled = true;
+            resultsSection.style.display = "none";
+
+            const formData = new FormData();
+            formData.append("mode", mode);
+            for (let i = 0; i < fileInput.files.length; i++) {
+                formData.append("files", fileInput.files[i]);
+            }
+
+            try {
+                // Change to your actual backend URL
+                const response = await fetch("http://172.16.31.24:8001/predict_batch", {
+                    method: "POST",
+                    body: formData
+                });
+
+                if (!response.ok) throw new Error(`Server Error: ${response.statusText}`);
+
+                const data = await response.json();
+                resultsBody.innerHTML = "";
+
+                // Loop through results and apply badges
+                data.display_data.forEach(res => {
+                    let badgeClass = "status-healthy";
+                    const pred = res.Prediction.toUpperCase();
+
+                    if (pred.includes("DRR")) badgeClass = "status-drr";
+                    else if (pred.includes("INVALID")) badgeClass = "status-invalid";
+
+                    const row = `
+                <tr>
+                    <td>${res["Image Name"]}</td>
+                    <td><span class="${badgeClass}">${res.Prediction}</span></td>
+                    <td><strong>${res["Severity Score"]}</strong></td>
+                </tr>`;
+                    resultsBody.insertAdjacentHTML('beforeend', row);
+                });
+
+                // Set up download link
+                downloadLink.href = `http://172.16.31.24:8001${data.download_url}`;
+                resultsSection.style.display = "block";
+
+            } catch (error) {
+                console.error("Fetch Error:", error);
+                alert("Connection Failed! Ensure your Python FastAPI server is running at http://172.16.31.24:8001");
+            } finally {
+                // --- UI Update: Stop Loading ---
+                loader.style.display = "none";
+                btn.disabled = false;
+            }
+        }
+    </script>
+    <?php include 'footer.php'; ?>
+</body>
+
+</html>
