@@ -2,7 +2,7 @@
 
 **Dry Root Rot (DRR)** is one of the predominant diseases affecting chickpea and can cause up to 100% crop loss. Many laboratories across the globe are currently studying DRR, however manual disease detection and assessment tend to be tedious, time-consuming and subject to human bias. 
 
-We introduce **RootRotAI**, an image-based ML-powered software for DRR detection and assessment. The motivation behind RootRot-AI is to introduce an automated DRR assessment system that is not only computationally efficient but also user friendly interface.
+We introduce **RootRotAI**, an image-based ML-powered software for DRR detection and assessment in chickpea. The motivation behind RootRotAI is to introduce an automated DRR assessment system that is not only computationally efficient but also user friendly interface.
 
 ---
 
@@ -31,4 +31,17 @@ The RootRot-AI 2.2 is suitable for quick DRR analysisThe app runs locally in the
 | **Camera** | 94% | 0.87 |
 | **Root Scanner** | 85% | 1.49 |
 | **Microscope** | 93% | 1.21 |
+
+## Installation & Setup
+
+To set up a local copy of **RootRotAI** for development or testing, follow these steps:
+
+### 1. Prerequisites
+* **Mobile App:** Ensure you have Flutter installed on your machine.
+* **Web Portal:** Ensure you have Python 3.8+ and Git installed. You will also need to install the dependencies listed in the `requirements.txt` file located in the portal directory.
+
+### 2. Clone the Repository
+Open your terminal or command prompt and run:
+```bash
+git clone [https://github.com/scipdatabase/RootRotAI.git](https://github.com/scipdatabase/RootRotAI.git)
 
