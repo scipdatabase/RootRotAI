@@ -1,0 +1,40 @@
+name: drr_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+4
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.11.0 
+  image_picker: ^1.0.7
+  image: ^4.0.17
+  csv: ^6.0.0
+  # ✅ NEW PACKAGES FOR SAVING
+  permission_handler: ^11.3.0
+  external_path: ^2.2.0
+  file_picker: ^10.3.8
+  url_launcher: ^6.3.2
+  path_provider: ^2.0.0
+  path: ^1.9.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0  # <--- Make sure this line exists
+  flutter_launcher_icons: "^0.13.1"
+
+# 👇 Ensure this section is aligned to the far left
+flutter_icons:
+  android: true                   # 2 spaces indentation
+  ios: true                       # 2 spaces indentation
+  image_path: "assets/image_16.png" # 2 spaces indentation
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/samples/
