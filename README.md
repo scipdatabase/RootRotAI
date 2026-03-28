@@ -29,7 +29,7 @@ RootRotAI 2.1 can be accessed using the link: http://223.31.159.3/DRR_portal/Roo
 ### RootRotAI 2.2 (Mobile Application)
 The RootRotAI 2.2 is suitable for quick DRR analysisThe app runs locally in the user’s device and does not require internet.The mobile application has an additional “Camera” option allows the user to capture images in the app using the camera of the user’s local device.
 
-## Performance Metrics of RootRot-AI
+## Performance Metrics of RootRotAI
 
 | Model | Accuracy for Classification | RMSE for Severity Score |
 | :--- | :---: | :---: |
