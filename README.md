@@ -23,6 +23,9 @@ RootRotAI 2.1 is a web application intended for users who wish to diagnose large
 
 RootRotAI 2.1 can be accessed using the link: http://223.31.159.3/DRR_portal/RootRotAI_test223.html
 
+> [!NOTE]
+> Please access this tool using a private network (home/lab) or mobile data, as strict public Wi-Fi networks often block direct IP links.
+
 ### RootRotAI 2.2 (Mobile Application)
 The RootRotAI 2.2 is suitable for quick DRR analysisThe app runs locally in the user’s device and does not require internet.The mobile application has an additional “Camera” option allows the user to capture images in the app using the camera of the user’s local device.
 
