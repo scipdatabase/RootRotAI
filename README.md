@@ -18,7 +18,7 @@ We introduce **RootRotAI**, an image-based ML-powered software for DRR detection
 
 ## Platforms
 
-### RootRotAI 2.1 (Web application)
+### RootRotAI 2.1 (Web Application)
 RootRotAI 2.1 is a web application intended for users who wish to diagnose large image sets.Since the application does not run locally on an external server, the computational efficiency is not limited by the RAM of the user’s local device.
 
 RootRotAI 2.1 can be accessed using the link: http://223.31.159.3/DRR_portal/RootRotAI_test223.html
